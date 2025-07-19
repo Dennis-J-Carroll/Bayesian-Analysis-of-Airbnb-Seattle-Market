@@ -1,0 +1,37 @@
+=== MODEL VALIDATION SUMMARY ===
+
+1. POSTERIOR PREDICTIVE CHECKS
+-----------------------------------
+MEAN        : p-value = 0.9400 [PASS]
+STD         : p-value = 0.8600 [PASS]
+MIN         : p-value = 0.0000 [FAIL]
+MAX         : p-value = 1.0000 [PASS]
+SKEWNESS    : p-value = 0.0000 [FAIL]
+
+Summary: 3/5 tests passed
+
+2. HOLDOUT VALIDATION
+-----------------------------------
+RMSE:        $100.91
+MAE:         $63.22
+MAPE:        32.1%
+R²:          0.481
+Log RMSE:    0.4016
+
+3. MODEL CALIBRATION
+-----------------------------------
+50% CI: Expected=0.50, Actual=0.521 [WELL CALIBRATED]
+80% CI: Expected=0.80, Actual=0.810 [WELL CALIBRATED]
+90% CI: Expected=0.90, Actual=0.898 [WELL CALIBRATED]
+95% CI: Expected=0.95, Actual=0.940 [WELL CALIBRATED]
+
+Calibration Score: 4/4 intervals well calibrated
+
+4. RESIDUAL ANALYSIS
+-----------------------------------
+Mean Residual:     0.000056
+Residual Std:      0.3796
+Jarque-Bera p:     0.0000
+Shapiro-Wilk p:    0.0000
+Residual Normality: NON-NORMAL
+
