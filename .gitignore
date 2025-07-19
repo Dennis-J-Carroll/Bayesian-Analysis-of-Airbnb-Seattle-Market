@@ -144,3 +144,6 @@ Thumbs.db
 *.temp
 # Exclude large reviews dataset (download separately)
 data/raw/reviews.csv
+
+# Exclude large reviews dataset (download separately)
+data/raw/reviews.csv

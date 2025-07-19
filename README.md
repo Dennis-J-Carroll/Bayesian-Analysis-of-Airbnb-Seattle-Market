@@ -221,7 +221,7 @@ See [`FURTHER_EXPLORATION.md`](FURTHER_EXPLORATION.md) for detailed roadmap incl
 - **Scikit-learn**: Cross-validation and metrics
 
 ### Data Sources
-- **Inside Airbnb**: Seattle listings, calendar, and reviews data
+- **Inside Airbnb**: Seattle listings and calendar data (reviews.csv is not included due to size; download manually from the Inside Airbnb data portal)
 - **Neighborhood boundaries**: GeoJSON format for spatial analysis
 - **Derived features**: Strategic scoring, investment metrics, pricing recommendations
 
